@@ -1,0 +1,16 @@
+/*
+C# is case sensitive
+
+*/
+using System; //using classes from  system
+
+namespace HelloWorld // ensuring that the code is organised to a specific namespace
+{
+  class Program      // creating class
+  {
+    static void Main(string[] args)  //main method
+    {
+      Console.WriteLine("Hello World!");       //displaying the output in console
+    }
+  }
+}

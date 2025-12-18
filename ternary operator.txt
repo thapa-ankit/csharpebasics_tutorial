@@ -1,0 +1,17 @@
+/* 
+Use of Ternary Operator ; also known as Short Hand If...Else 
+
+*/
+
+using System;
+namespace TernaryOperator
+{
+	class OperatorDemo{
+		static void Main (string[] args){		
+			int marks = 52;
+			string result = (marks < 40) ? "FAIL  !" : "PASS !";
+			Console.WriteLine(result);
+		}
+	}
+	
+}
